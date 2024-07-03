@@ -25,5 +25,6 @@ TEST_F(BaseballFixture, ThrowExceptionWhenInvalidCase)
 {
     assrtIllegalArgument("12");
     assrtIllegalArgument("12s");
+    assrtIllegalArgument("121");
 }
 
