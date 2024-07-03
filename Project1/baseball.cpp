@@ -4,8 +4,11 @@ using namespace std;
 class Baseball
 {
 public:
-    void guess(const string& string)
+    void guess(const string& str)
     {
-        throw length_error("Must be three letters.");
+        if (str.size() != 3)
+        {
+            throw length_error("Must be three letters.");
+        }
     }
 };
